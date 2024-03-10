@@ -1,0 +1,57 @@
+.circle {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgb(173, 165, 165) !important;
+    border-radius: 10%;
+}
+h2 {
+    color: rgb(185, 62, 168) !important;
+
+}
+.tablenames {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tablenames2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.anaekran {
+
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(internetcafe.jpg);
+    background-size: cover;
+}
+
+.anaekran2 {
+
+}
+.button {
+    border-radius: 20%;
+    background-color: aquamarine;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.button:hover {
+    color: rgb(185, 62, 168);
+    background-color: blueviolet;
+    transform: scale(1.2);
+    
+}
