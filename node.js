@@ -20,7 +20,7 @@ function start(buttonID,divID)
     tableList[index] = setInterval(() => {
         second++;
 
-        yeniDiv[index].textContent = hour+' : '+minute+' : '+second;
+        yeniDiv[index].textContent = Math.floor(hour/10)+hour%10+' : '+Math.floor(minute/10)+minute%10+' : '+Math.floor(second/10)+second%10;
         document.getElementById(divID).appendChild(yeniDiv[index]);
 
         if(second == 60)
