@@ -1,9 +1,10 @@
+/* Styles for the circle container */
 .circle {
     display: flex;
     justify-content: center;
-    
-    
 }
+
+/* Styles for individual circles */
 .circle1 {
     display: flex;
     justify-content: center;
@@ -11,47 +12,60 @@
     margin: auto;
     width: 200px;
     height: 100px;
-    border: 5px solid rgb(173, 165, 165) !important;
-    border-radius: 10%;
+    border: 5px solid rgb(173, 165, 165) !important; /* Border style */
+    border-radius: 10%; /* Border radius */
 }
-h2 {
-    color: rgb(185, 62, 168) !important;
 
+/* Styles for heading elements */
+h2 {
+    color: rgb(185, 62, 168) !important; /* Heading color */
 }
+
+/* Styles for table names */
 .tablenames {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
 .tablenames2 {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Additional styling for heading elements */
 h2 {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Styles for the main container */
 .anaekran {
-
+    /* Add any specific styles for anaekran container */
 }
+
+/* Body styles */
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(internetcafe.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(internetcafe.jpg); /* Background image */
+    background-size: cover; /* Background image size */
 }
 
+/* Additional styling for secondary container */
 .anaekran2 {
+    /* Add any specific styles for anaekran2 container */
+}
 
-}
+/* Button styles */
 .button {
-    border-radius: 20%;
-    background-color: aquamarine;
-    font-weight: 700;
-    transition: 0.3s;
+    border-radius: 20%; /* Button border radius */
+    background-color: aquamarine; /* Button background color */
+    font-weight: 700; /* Button font weight */
+    transition: 0.3s; /* Transition effect */
 }
+
+/* Hover effect for buttons */
 .button:hover {
-    color: rgb(185, 62, 168);
-    background-color: blueviolet;
-    transform: scale(1.2);
-    
+    color: rgb(185, 62, 168); /* Button text color on hover */
+    background-color: blueviolet; /* Button background color on hover */
+    transform: scale(1.2); /* Button scale on hover */
 }
